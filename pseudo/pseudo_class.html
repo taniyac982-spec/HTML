@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class</title>
+    <style>
+        button:hover {
+            background-color: blueviolet;
+            color: black;
+        }
+
+        input {
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        input:focus {
+            outline: none;
+            border: 2px solid blueviolet;
+        }
+
+        li:first-child {
+            color: blueviolet;
+        }
+
+        a {
+            color: slateblue;
+            text-decoration: none;
+        }
+        a:visited {
+            color: brown;
+        }
+        a:active{
+            color:black;
+        }
+    </style>
+</head>
+
+<body>
+    <button>Click me</button>
+    <input type="text" name="" id="" />
+    <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+    </ul>
+    <a href="https://www.youtube.com/">Visit you Tube</a>
+</body>
+
+</html>

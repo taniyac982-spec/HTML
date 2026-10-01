@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>50marks_exam</title>
+</head>
+
+
+    <h1>HTML Basics & Structure</h1>
+    <br>
+    <br>
+
+
+
+    <h3>1. Your team is building a college event page with a main heading, introduction, and three sections. Which
+        semantic HTML elements would you choose for the page structure, and why?</h3>
+    <p>
+        We can use header, main, section, and footer.
+        These elements help us organize the webpage clearly.
+        They also make the HTML structure easier to understand.
+    </p>
+    <p><b>Example:</b></p>
+    <header>
+        <h4>College Event</h4>
+    </header>
+    <main>
+        <section>
+            <h4>Introduction</h4>
+            <p>Welcome to our college event.</p>
+        </section>
+        <section>
+            <h4>Events</h4>
+            <p>Different events will be held here.</p>
+        </section>
+        <section>
+            <h4>Contact</h4>
+            <p>Contact us for more information.</p>
+        </section>
+    </main>
+
+    <br><br>
+
+
+
+
+
+    <h3>2. You need to display five programming languages where the order does not matter. Which HTML list element
+        should you use?</h3>
+    <p>
+        We should use an unordered list using the ul tag.
+        It is used when the order of the items does not matter.
+    </p>
+    <p><b>Example:</b></p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+    </ul>
+    <br><br>
+
+
+
+
+
+    <h3>3. A student creates a button using a div because it looks like a button after CSS is applied. What HTML element
+        would be more appropriate?</h3>
+    <p>
+        We should use the button tag instead of div.
+        The button tag is specially made for clickable actions.
+    </p>
+    <p><b>Example:</b></p>
+    <button>Click Me</button>
+
+    <br><br>
+
+
+
+
+
+
+    <h3>4. A profile page contains a person's name, profile image, email address, and biography. Which HTML elements
+        would you use?</h3>
+    <p>
+        We can use h2 for the name, img for the profile image,
+        a for the email link, and p for the biography.
+    </p>
+    <p><b>Example:</b></p>
+    <h2>TANIYA CHOWDHURY</h2>
+    <img src="./IMAGES/TC.png" width="200" height="220" alt="Profile Picture">
+    <p>
+        <a href="mailto:taniyac982@gmail.com">taniyac982@gmail.com</a>
+    </p>
+    <p>
+        I am a web design student who enjoys learning HTML and CSS. I am interested in creating simple and user-friendly
+        websites. I enjoy exploring new design ideas and improving my web design skills. I am currently learning the
+        basics of web development and trying to build creative projects. My goal is to become a skilled and creative web
+        designer.
+    </p>
+
+    <br><br>
+
+
+
+
+
+    <h3>5. You need a link that opens the university website in a new browser tab. Which HTML attributes control this?
+    </h3>
+    <p>
+        The href attribute tells the browser where the link should go.
+        The target attribute tells the browser where to open the link.
+        We can use target="_blank" to open it in a new tab.
+    </p>
+    <p><b>Example:</b></p>
+    <a href="https://www.caluniv.ac.in/" target="_blank">
+        University Website of Calcutta
+    </a>
+
+    <br>
+    <br>
+
+
+
+
+
+    <h3>6. A form asks for name, email, password, and date of birth. Which HTML input types would you choose?</h3>
+    <p>
+        For name we can use text, for email we use email,
+        for password we use password, and for date of birth we use date.
+    </p>
+    <p><b>Example:</b></p>
+    <input type="text" placeholder="Enter your name">
+    <input type="email" placeholder="Enter your email">
+    <input type="password" placeholder="Enter your password">
+    <input type="date">
+
+    <br>
+    <br>
+
+
+
+
+    <h3>7. A login form has an email field. The browser should prevent submission when the field is empty. Which HTML
+        attribute can provide this basic validation?</h3>
+    <p>
+        We can use the required attribute.
+        It tells the browser that the field must be filled before submitting the form.
+    </p>
+    <p><b>Example:</b></p>
+    <input type="email" placeholder="Enter your email" required>
+
+    <br><br>
+
+
+
+
+
+    <h3>8. An image fails to load. Which attribute should be added to img so users can still understand what the image
+        represents?</h3>
+    <p>
+        We should use the alt attribute.
+        It gives a text description of the image.
+        If the image does not load, the alt text can still be shown.
+    </p>
+    <p><b>Example:</b></p>
+    <img src="./IMAGES/TC.png" width="200" height="220" alt="Profile Picture">
+
+
+    <br><br>
+
+
+
+
+
+    <h3>9. A student uses multiple h1 elements just to make text look large. Why should heading elements be selected
+        based on document structure, and what should be used for visual sizing?</h3>
+    <p>
+        Heading tags should be used according to the importance and structure of the content.
+        We should not use h1 only because it looks bigger.
+        CSS should be used when we want to change the visual size of the text.
+    </p>
+    <p><b>Example:</b></p>
+    <h1>Main Heading</h1>
+    <h2>Sub Heading</h2>
+    <h3>Small Heading</h3>
+
+
+    <br><br>
+
+
+
+
+    <h3>10. You need a navigation area containing links to Home, About, Courses, and Contact. Which semantic HTML
+        element is appropriate?</h3>
+    <p>
+        We should use the nav tag.
+        The nav tag is used for a navigation area containing important links.
+    </p>
+    <p><b>Example:</b></p>
+    <nav>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Courses</a>
+        <a href="">Contact</a>
+    </nav>
+
+    <br><br>
+    <br>
+    <br><br>
+
+
+
+
+
+    <h1>HTML Attributes</h1>
+
+
+    <h3>11. A product card has a unique product ID that JavaScript needs to read later. Which type of HTML attribute
+        would you use for a custom value, and what naming convention should it follow?</h3>
+
+    <p>
+
+    </p>
+    <p><b>Example:</b></p>
+
+
+
+
+
+    <br><br>
+
+
+    <h3>12. You want every course card to share the same CSS rule. Which HTML attribute should you use, and what is its
+        purpose?</h3>
+    <p>
+        We should use the class attribute.
+        A class can be given to multiple elements so that the same CSS rule can be applied to them.
+    </p>
+    <p><b>Example:</b></p>
+    <div class="course-card">HTML Course</div>
+    <div class="course-card">CSS Course</div>
+    <div class="course-card">JavaScript Course</div>
+
+    <br><br>
+
+
+
+
+
+    <h3>13. A developer writes id="card" on ten different elements. Why can this cause problems, and when should an id
+        normally be used?</h3>
+    <p>
+        An id should normally be unique on a page.
+        Using the same id on many elements can cause problems with CSS and JavaScript.
+        If we have many similar elements, we should usually use a class instead.
+    </p>
+    <p><b>Example:</b></p>
+    <div id="student-card">
+        Student Information
+    </div>
+
+    <br><br>
+
+
+
+
+
+    <h3>14. You need a checkbox to be selected automatically when the page loads. Which HTML attribute can do this?</h3>
+    <p>
+        We can use the checked attribute.
+        It makes the checkbox selected automatically when the page loads.
+    </p>
+    <p><b>Example:</b></p>
+    <input type="checkbox" checked>
+    I agree to the terms
+
+
+    <br><br>
+
+
+
+
+
+
+    <h3>15. A form input should be disabled until the user selects a plan. Which HTML attribute can temporarily prevent
+        editing?</h3>
+
+    <p>
+        We can use the disabled attribute.
+        It prevents the user from using or editing the input.
+    </p>
+    <p><b>Example:</b></p>
+    <input type="text" value="Select a plan first" disabled>
+
+
+    <br><br>
+
+
+
+
+
+    <h3>16. A button should submit a form, while another button should only run JavaScript. Which type value would you
+        use for the second button?</h3>
+    <p>
+
+    </p>
+    <p><b>Example:</b></p>
+
+
+
+
+
+    <br><br>
+
+
+    <h3>17. You want an input to display a short hint such as 'Enter your phone number'. Which attribute is designed for
+        this?</h3>
+    <p>
+        We can use the placeholder attribute.
+        It displays a short hint inside the input field.
+    </p>
+    <p><b>Example:</b></p>
+    <input type="text" placeholder="Enter your phone number">
+
+
+    <br><br>
+
+
+
+
+    <h3>18. A form field should accept only an email-like value using browser-level input validation. Which input type
+        would you choose?</h3>
+    <p>
+        We should use type="email".
+        The browser checks whether the entered value looks like an email address.
+    </p>
+    <p><b>Example:</b></p>
+    <input type="email" placeholder="Enter your email">
+
+
+    <br><br>
+
+
+
+    <h1>CSS Basics</h1>
+
+    <h3>19. A website uses the same blue color for all primary buttons. The developer wants to change the color in one
+        place. How could a CSS custom property help?</h3>
+    <p>
+        We can use a CSS custom property to store the color in one place.
+        Then we can use the same color for different elements.
+        If we change the value once, all elements using it can change.
+    </p>
+    <p><b>Example:</b></p>
+    <p style="color: blue;">This text uses the primary color.</p>
+    <p>CSS custom property: --primary-color: blue;</p>
+
+
+    <br>
+
+
+
+
+    <h3>
+        <h3>20. A heading has a large gap below it. Which box-model property would you inspect if the gap is outside the
+            element's border?</h3>
+        <p>
+            We should check the margin property.
+            Margin creates space outside an element.
+        </p>
+        <p><b>Example:</b></p>
+        <p style="margin-bottom: 30px;">Heading</p>
+        <p>Text after the heading</p>
+
+
+        <br>
+
+
+
+
+
+        <h3>21. A card's text is too close to its border. Which box-model property should be increased?</h3>
+        <p>
+            We should increase the padding.
+            Padding creates space between the content and the border.
+        </p>
+        <p><b>Example:</b></p>
+        <div style="border: 1px solid black; padding: 20px;">
+            This text has space around it.
+        </div>
+
+
+
+        <br>
+
+
+
+
+        <h3>22. All paragraph text should use Arial and have a line-height of 1.6. Which CSS properties would you use?
+        </h3>
+        <p>
+            We should use font-family to change the font
+            and line-height to control the space between lines.
+        </p>
+        <p><b>Example:</b></p>
+        <p style="font-family: Arial; line-height: 1.6;">
+            This is a paragraph with Arial font and 1.6 line-height.
+        </p>
+
+
+        <br>
+
+
+
+
+
+        <h3>23. You need a button to change its background color when the mouse pointer is over it. Which pseudo-class
+            should be used?</h3>
+        <p>
+            We should use the :hover pseudo-class.
+            It works when the mouse pointer is over an element.
+        </p>
+        <p><b>Example:</b></p>
+        <button onmouseover="this.style.backgroundColor='lightblue'" onmouseout="this.style.backgroundColor='white'">
+            Move Mouse Here
+        </button>
+        <p>
+            In CSS, we normally write: button:hover
+        </p>
+
+
+
+        <br>
+
+
+
+
+        <h3>24. A form input should receive a visible border when the user clicks into it. Which pseudo-class is
+            commonly used?</h3>
+        <p>
+            We should use the :focus pseudo-class.
+            It works when the user clicks on or selects an input field.
+        </p>
+        <p><b>Example:</b></p>
+        <input type="text" placeholder="Click here">
+        <p>
+            In CSS, we normally write: input:focus
+        </p>
+
+
+        <br>
+
+
+
+
+
+        <h3>25. Three cards should appear side-by-side on desktop and stack vertically on small screens. Which layout
+            technique and responsive feature could you use?</h3>
+        <p>
+            We can use CSS Grid to place the cards side-by-side.
+            We can use a media query to stack the cards on small screens.
+        </p>
+        <p><b>Example:</b></p>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+            <div style="border: 1px solid gray; padding: 20px; border-radius: 10px;">
+                <h3>Card 1</h3>
+                <p>This is the first card.</p>
+            </div>
+            <div style="border: 1px solid gray; padding: 20px; border-radius: 10px;">
+                <h3>Card 2</h3>
+                <p>This is the second card.</p>
+            </div>
+            <div style="border: 1px solid gray; padding: 20px; border-radius: 10px;">
+                <h3>Card 3</h3>
+                <p>This is the third card.</p>
+            </div>
+        </div>
+        <p>
+            We can use @media to change the grid into one column on small screens.
+        </p <br>
+
+
+
+        <h3>26. A student writes .card { color: red; } but the card's background remains white. Which property
+            should be changed if the goal is a red background?
+        </h3>
+        <p>
+            The color property changes the text color.
+            To change the background color, we should use background-color.
+        </p>
+        <p><b>Example:</b></p>
+        <div style="background-color: red; padding: 20px;">
+            This card has a red background.
+        </div>
+
+
+        <br>
+
+
+
+
+        <h3>27. You want a paragraph to show one line and display an ellipsis when text is too long. Which CSS
+            properties could solve this?</h3>
+        <p>
+
+        </p>
+        <p><b>Example:</b></p>
+        <p>
+
+        </p>
+
+
+        <br>
+
+
+
+        <h3>28. A navigation link should have no underline normally but become underlined when hovered. Which CSS
+            property and pseudo-class would you use?</h3>
+        <p>
+            We can use text-decoration to control the underline.
+            We can use :hover to add the underline when the mouse pointer is over the link.
+        </p>
+        <p><b>Example:</b></p>
+        <a href="#" style="text-decoration: none;" onmouseover="this.style.textDecoration='underline'"
+            onmouseout="this.style.textDecoration='none'">
+            Home
+        </a>
+        <p>
+            In CSS, we normally write: a:hover
+        </p>
+
+
+        <br>
+
+
+
+        <h1>CSS Position</h1>
+
+
+        <h3>29. A notification badge must stay in the same place relative to its parent card. Which position value is
+            commonly used on the badge, and what should be applied to the parent?</h3>
+
+        <p>
+            We can use position: absolute on the badge.
+            The parent card should have position: relative.
+            This makes the badge position itself according to the parent card.
+        </p>
+        <p><b>Example:</b></p>
+        <div style="position: relative; width: 200px; padding: 30px; border: 1px solid black;">
+            Product Card
+            <span style="position: absolute; top: 5px; right: 5px;">New</span>
+        </div>
+
+
+        <br>
+
+
+
+
+
+        <h3>30. You need a header that stays visible at the top of the viewport while the user scrolls. Which position
+            value could you consider, and what top value is typically required?</h3>
+        <p>
+            We can use position: sticky.
+            We normally use top: 0 so the header stays at the top when we scroll.
+        </p>
+        <p><b>Example:</b></p>
+        <div style="position: sticky; top: 0; background-color: lightblue; padding: 10px;">
+            My Header
+        </div>
+        <p>Scroll down to see how the header can stay at the top.</p>
+
+
+        <br>
+
+
+
+
+        <h3>31. A modal dialog should stay attached to the browser viewport and not move with normal document scrolling.
+            Which position value is suitable?</h3>
+        <p>
+            We should use position: fixed.
+            It keeps the element attached to the browser window even when the page is scrolled.
+        </p>
+
+
+        <br>
+
+
+
+
+        <h3>32. A developer sets position: absolute on an icon but it appears in an unexpected location. What is the
+            relationship between an absolutely positioned element and its nearest positioned ancestor?</h3>
+        <p>
+            An element with position: absolute is positioned relative to its nearest parent
+            that has a position value such as relative, absolute, or fixed.
+            If there is no positioned parent, it may be positioned relative to the page.
+        </p>
+        <p><b>Example:</b></p>
+        <div style="position: relative; width: 200px; height: 100px; border: 1px solid black;">
+            Parent Card
+            <span style="position: absolute; top: 10px; right: 10px;">★</span>
+        </div>
+
+
+        <br>
+
+
+
+
+        <h3>33. You want a decorative circle behind a card without affecting normal layout. Which position value and
+            stacking-related property could be useful?</h3>
+        <p>
+            We can use position: absolute for the decorative circle.
+            We can use z-index to place it behind the card.
+        </p>
+        <p><b>Example:</b></p>
+        <div style="position: relative; width: 200px; height: 100px;">
+            <div
+                style="position: absolute; width: 80px; height: 80px; border-radius: 50%; background-color: lightblue; z-index: 0;">
+            </div>
+            <div
+                style="position: relative; z-index: 1; padding: 30px; border: 1px solid black; background-color: white;">
+                My Card
+            </div>
+        </div>
+
+
+        <br>
+
+
+
+
+        <h3>34. A student uses position: relative and top: 20px. Does the element leave its original layout space?
+            Explain.</h3>
+        <p>
+            No, the element does not leave its original layout space.
+            It moves 20px down from its original position, but its original space is still kept.
+        </p>
+        <p><b>Example:</b></p>
+        <div style="position: relative; top: 20px;">
+            This box moves down 20px.
+        </div>
+
+
+        <br><br>
+
+
+
+        <h3>35. A sticky sidebar should remain in its normal place initially and then stick while scrolling within its
+            scroll container. Which position value is designed for this?</h3>
+        <p>
+            We should use position: sticky.
+            The element stays in its normal position at first and then sticks when we scroll.
+        </p>
+
+        <br>
+
+
+
+        <h3>36. Two overlapping elements are positioned on the page. One must appear above the other. Which CSS property
+            can control stacking order?</h3>
+
+
+
+        <br>
+
+
+
+        <h1>Pseudo-classes & Pseudo-elements</h1>
+
+
+        <h3>37. A button should look different when the mouse moves over it. Which pseudo-class would you use?</h3>
+        <p>
+            We should use the :hover pseudo-class.
+            It applies a style when the mouse pointer moves over an element.
+        </p>
+        <p><b>Example:</b></p>
+        <button style="background-color: blue; color: white;" onmouseover="this.style.backgroundColor='green'"
+            onmouseout="this.style.backgroundColor='blue'">
+            Hover Me
+        </button>
+
+
+        <br><br>
+
+
+
+
+
+        <h3>38. A form should highlight an input while the user is typing into it. Which pseudo-class detects the
+            focused element?</h3>
+        <p>
+            We should use the :focus pseudo-class.
+            It works when the user clicks on or focuses on an input field.
+        </p>
+        <p><b>Example:</b></p>
+        <input type="text" placeholder="Click here to type" style="border: 2px solid blue;">
+
+
+        <br><br>
+
+
+
+
+
+        <h3>39. You have a list and want to style only the first item differently. Which pseudo-class could you use?
+        </h3>
+        <p>
+            We can use the :first-child pseudo-class.
+            It selects the first child of an element.
+        </p>
+        <p><b>Example:</b></p>
+        <ul>
+            <li style="color: blue;">First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+        </ul>
+
+
+        <br>
+
+
+
+
+        <h3>40. You want every even table row to have a different background without adding extra classes. Which
+            structural pseudo-class can help?</h3>
+        <p>
+            We can use the :nth-child(even) pseudo-class.
+            It selects the even-numbered elements.
+        </p>
+        <p><b>Example:</b></p>
+        <table style="border: 1px solid black;"></table>
+        <tr>
+            <td>Row 1</td>
+        </tr>
+        <tr style="background-color: lightgray;">
+            <td>Row 2</td>
+        </tr>
+        <tr>
+            <td>Row 3</td>
+        </tr>
+        <tr style="background-color: lightgray;">
+            <td>Row 4</td>
+        </tr>
+        </table>
+
+
+        <br><br>
+
+
+
+
+        <h3>41. A heading needs a small decorative line before its text without adding another HTML element. Which
+            pseudo-element could you use?</h3>
+        <p>
+            We can use the ::before pseudo-element.
+            It can add content or decoration before the text.
+        </p>
+        <p><b>Example:</b></p>
+        <h3 style="border-left: 4px solid blue; padding-left: 8px;">
+            My Heading
+        </h3>
+
+
+        <br>
+
+
+
+
+
+        <h3>42. A paragraph's first letter should be larger than the rest. Which pseudo-element is designed for this?
+        </h3>
+        <p>
+            We can use the ::first-letter pseudo-element.
+            It allows us to style only the first letter of a paragraph.
+        </p>
+        <p><b>Example:</b></p>
+        <p style="font-size: 18px;">
+            <span style="font-size: 35px; font-weight: bold;">W</span>eb design is interesting.
+        </p>
+
+
+        <br>
+
+
+
+
+        <h3>43. You want to display a tooltip using generated content when a button is hovered. Which pseudo-element and
+            pseudo-class combination could be used?</h3>
+        <p>
+            We can use ::after with :hover.
+            The :hover detects the mouse pointer, and ::after can display the tooltip.
+        </p>
+        <p><b>Example:</b></p>
+        <button title="This is a tooltip">
+            Hover Me
+        </button>
+
+
+        <br><br>
+
+
+
+
+        <h3>44. Explain the difference between a pseudo-class and a pseudo-element using practical examples such as
+            :hover and ::before.</h3>
+        <p>
+            A pseudo-class is used to style an element when it is in a particular state.
+            For example, :hover works when the mouse pointer is over an element.
+        </p>
+        <p>
+            A pseudo-element is used to style a specific part of an element or add extra content.
+            For example, ::before can add content before an element's text.
+        </p>
+        <p><b>Example:</b></p>
+        <button title="Hover state">
+            Hover Me
+        </button>
+        <p>
+            In simple words: <b>:hover</b> = state of an element,
+            <b>::before</b> = part or generated content of an element.
+        </p>
+
+
+        <br>
+
+
+        <h1>Box Model & Practical Layout</h1>
+        <h3>45. A 300px-wide content box has 20px padding on both left and right and 2px borders on both sides. With
+            box-sizing: content-box, what is the total rendered width? Show the calculation.</h3>
+        <p>
+            The total width will be 344px.
+            With content-box, padding and border are added to the declared width.
+        </p>
+        <p><b>Calculation:</b></p>
+        <p>
+            300px + 20px + 20px + 2px + 2px = 344px
+        </p>
+        <p><b>Example:</b></p>
+        <div style="width: 300px; padding: 20px; border: 2px solid black;">
+            Content Box
+        </div>
+
+
+        <br><br>
+
+
+
+
+
+        <h3>46. A developer wants a card's declared width to include padding and border. Which box-sizing value should
+            be used?</h3>
+        <p>
+            We should use box-sizing: border-box.
+            It includes the content, padding, and border inside the declared width.
+        </p>
+        <p><b>Example:</b></p>
+        <div style="width: 300px; padding: 20px; border: 2px solid black; box-sizing: border-box;">
+            Card
+        </div>
+
+
+        <br><br>
+
+
+
+
+        <h3>47. Two cards have different amounts of text, but the design requires equal-height cards in a row. Which
+            layout approach could help without manually setting a fixed height?</h3>
+        <p>
+            We can use CSS Grid or Flexbox.
+            These layout methods can make the cards stretch to the same height automatically.
+        </p>
+        <p><b>Example:</b></p>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
+            <div style="border: 1px solid black; padding: 10px;">
+                Card 1
+            </div>
+            <div style="border: 1px solid black; padding: 10px;">
+                Card 2 has some more content.
+            </div>
+        </div>
+
+
+        <br><br>
+
+
+
+
+        <h3>48. A button looks cramped because the text touches the border. Would you normally increase margin or
+            padding? Explain why.</h3>
+        <p>
+            We should increase padding.
+            Padding creates space between the text and the border of the button.
+        </p>
+        <p><b>Example:</b></p>
+        <button style="padding: 15px 25px;">
+            Click Me
+        </button>
+
+
+        <br><br>
+
+
+
+
+        <h3>49. A section is too far away from the next section even though its own content spacing looks correct. Which
+            box-model property would you inspect?</h3>
+        <p>
+            We should inspect the margin property.
+            Margin creates space outside an element and can create a gap between sections.
+        </p>
+        <p><b>Example:</b></p>
+        <div style="margin-bottom: 30px; border: 1px solid black;">
+            Section 1
+        </div>
+        <div style="border: 1px solid black;">
+            Section 2
+        </div>
+
+
+        <br><br>
+
+
+
+
+
+        <h3>50. You give an element width: 100%, but it becomes wider than its parent after adding padding. Explain why
+            and how box-sizing: border-box changes the behavior.</h3>
+        <p>
+            By default, box-sizing is content-box. This means the padding is added to the 100% width, making the element
+            wider than its parent.
+            With border-box, the padding and border are included inside the 100% width.
+        </p>
+        <p><b>Example:</b></p>
+        <div style="width: 300px; border: 1px solid black;">
+            <div style="width: 100%; padding: 20px; box-sizing: border-box; border: 2px solid blue;">
+                This stays inside the parent.
+            </div>
+        </div>
+</body>
+</html>

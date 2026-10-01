@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> pseudo elements hw-2</title>
+
+    <style>
+        h1::before {
+            content: "★";
+            color: rgb(91, 41, 218);
+        }
+
+
+
+
+
+        .read::after {
+            content: " Read more...";
+            color: rgb(91, 41, 218);
+            font-weight: bold;
+        }
+
+
+
+
+        .heading::after {}
+
+
+
+
+
+        .letter::first-letter {
+            color: rgb(91, 41, 218);
+        }
+
+
+
+
+        .line::first-line {
+            color: rgb(91, 41, 218);
+        }
+
+
+
+
+
+        .list li::marker {
+            color: rgb(91, 41, 218);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to My Website</h1>
+
+
+
+
+
+    <p class="read more">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolor corporis quaerat, aut temporibus doloremque?
+        Voluptate minima itaque ab deserunt vero aperiam totam fugiat, laborum odio modi repudiandae cupiditate
+        consequatur!
+    </p>
+
+
+
+
+
+    <h2 class="heading">Our Services</h2>
+    <!-- Create a custom underline below a heading using ::after. -->
+
+
+
+
+
+
+    <p class="letter">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, error. Ab molestiae cum voluptatum ullam at
+        voluptatem molestias dicta. Voluptatibus at quae libero est perferendis molestiae provident! Quaerat,
+        voluptatibus atque.
+    </p>
+
+
+
+
+
+    <p class="line">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, error. Ab molestiae cum voluptatum ullam at
+        voluptatem molestias dicta. Voluptatibus at quae libero est perferendis molestiae provident! Quaerat,
+        voluptatibus atque.
+    </p>
+
+
+
+
+
+    <ul class="list">
+        <li>Web Design</li>
+        <li>UI/UX Design</li>
+        <li>Graphic Design</li>
+        <li>Branding</li>
+        <li>Digital Marketing</li>
+    </ul>
+</body>
+
+</html>
